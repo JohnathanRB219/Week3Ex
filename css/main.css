@@ -1,0 +1,40 @@
+/** navbar **/
+ul{
+	text-align: center;
+	padding: 15px;
+}
+a:hover{
+	background-color: green;
+	border: dashed 2px silver;
+	transition: 0.5s ease;
+	font-size: 50px;
+	color: gold;
+}
+a{
+	text-decoration: none;
+}
+.nav li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 20px;
+}
+/** buttons **/
+.buttons{
+	text-align: center;
+	padding: 30px 32px;
+}
+button{
+	margin: 5px;
+	padding: 50px 70px;
+	border: 0;
+	background-color:yellow;
+	color: #00bfff;
+	font-size: 20px;
+}
+/** hover effect **/
+button:hover{
+	background-color: #8b0000;
+	color: white;
+	cursor: pointer;
+	
+}
